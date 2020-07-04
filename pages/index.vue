@@ -9,7 +9,7 @@
           class="article-card-block"
         >
           <content-placeholders-img />
-          <content-placeholders-text :lines="3" />
+          <content-placeholders-text :lines="4" />
         </content-placeholders>
       </div>
     </template>
@@ -38,7 +38,7 @@
           class="article-card-block"
         >
           <content-placeholders-img />
-          <content-placeholders-text :lines="3" />
+          <content-placeholders-text :lines="4" />
         </content-placeholders>
       </div>
     </template>

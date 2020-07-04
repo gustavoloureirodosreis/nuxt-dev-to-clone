@@ -35,13 +35,8 @@ export default {
     '~/plugins/vue-observe-visibility.client.js'
   ],
   buildModules: [
-    '@nuxtjs/eslint-module',
     '@nuxtjs/svg',
     '@nuxtjs/style-resources'
   ],
-  modules: ['nuxt-ackee'],
-  ackee: {
-    server: 'https://ackee.nuxtjs.com',
-    domainId: '6336379b-8d3e-4069-9d2e-897be6a7ed4e'
-  }
+  modules: [],
 }
