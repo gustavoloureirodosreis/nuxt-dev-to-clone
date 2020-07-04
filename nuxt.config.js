@@ -51,5 +51,13 @@ module.exports = {
     extend(config, ctx) {
       
     }
+  },
+
+  buildModules: [
+    '@nuxtjs/style-resources'
+  ],
+
+  styleResources: {
+    scss: ['~/assets/styles/tokens.scss']
   }
 }
