@@ -33,6 +33,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vue-placeholders.js',
+    '~/plugins/vue-observe-visibility.client.js'
   ],
 
   /*
@@ -54,6 +56,7 @@ module.exports = {
   },
 
   buildModules: [
+    '@nuxtjs/svg',
     '@nuxtjs/style-resources'
   ],
 
