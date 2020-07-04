@@ -12,9 +12,15 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-content-placeholders": "^0.2.1",
+    "vue-observe-visibility": "^0.4.6"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/svg": "^0.1.11",
+    "nodemon": "^1.11.0",
+    "sass": "^1.26.9",
+    "sass-loader": "^9.0.1"
   }
 }
